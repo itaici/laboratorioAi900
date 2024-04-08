@@ -1,0 +1,57 @@
+{
+    "id": "/subscriptions/a45087d4-997a-45c8-bbd9-63d1a764af27/resourceGroups/DIO/providers/Microsoft.MachineLearningServices/workspaces/laboratorioAi900",
+    "name": "laboratorioAi900",
+    "type": "Microsoft.MachineLearningServices/workspaces",
+    "location": "eastus",
+    "tags": {},
+    "etag": null,
+    "properties": {
+        "friendlyName": "laboratorioAi900",
+        "description": "",
+        "storageAccount": "/subscriptions/a45087d4-997a-45c8-bbd9-63d1a764af27/resourceGroups/DIO/providers/Microsoft.Storage/storageAccounts/laboratorioai90240103447",
+        "keyVault": "/subscriptions/a45087d4-997a-45c8-bbd9-63d1a764af27/resourceGroups/DIO/providers/Microsoft.Keyvault/vaults/laboratorioai99807317312",
+        "applicationInsights": "/subscriptions/a45087d4-997a-45c8-bbd9-63d1a764af27/resourceGroups/DIO/providers/Microsoft.insights/components/laboratorioai99458625385",
+        "hbiWorkspace": false,
+        "tenantId": "aacb2630-b655-4ea7-befb-437040d5f849",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled"
+        },
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2024-04-08T17:15:59.7348166Z",
+        "notebookInfo": {
+            "resourceId": "872b262512234323afec6e78ae82397a",
+            "fqdn": "ml-laboratorioai900-eastus-092963e6-8266-4b0c-b36f-a9874b33c454.eastus.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "092963e6-8266-4b0c-b36f-a9874b33c454",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "discoveryUrl": "https://eastus.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus.api.azureml.ms/mlflow/v1.0/subscriptions/a45087d4-997a-45c8-bbd9-63d1a764af27/resourceGroups/DIO/providers/Microsoft.MachineLearningServices/workspaces/laboratorioAi900",
+        "sdkTelemetryAppInsightsKey": "71fa86c2-fe23-49db-bb2e-8537edfb6ead"
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "beb5d076-54ec-4087-95a6-03f6bfe62c53",
+        "tenantId": "aacb2630-b655-4ea7-befb-437040d5f849"
+    },
+    "kind": "Default",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "systemData": {
+        "createdAt": "2024-04-08T17:15:59.7348166Z",
+        "createdBy": "iplessmann@terra.com.br",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-04-08T17:15:59.7348166Z",
+        "lastModifiedBy": "iplessmann@terra.com.br",
+        "lastModifiedByType": "User"
+    }
+}
